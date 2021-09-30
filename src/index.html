@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(255, 255, 255);
+        
+        
+    }
+
+    header div ul {
+        display: flex;
+        margin-top: 12px;
+        margin-right: 16px;
+        align-items: center;
+        justify-content: end;
+        list-style-type: none;
+    }
+
+    header div ul li:hover {
+        background-color: rgb(250, 250, 250);
+        border-radius: 25px;
+    }
+
+    header div ul li {
+        padding: 16px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    body {
+        background-color: rgb(134, 247, 159);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+
+    section {
+        padding: 16px;
+        width: 75%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    section h1 {
+        font-size: xx-large;
+    }
+
+    section div.content {
+        padding-top: 16px;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+        border-radius: 25px;
+    }
+    
+    .space {
+        width: 250px;
+    }
+
+    .line {
+        background-color: rgb(255, 255, 255);
+        width: 75%;
+        height: 2px;
+        border-radius: 25px;
+    }
+
+</style>
+<body>
+    <header>
+        <div>
+            <ul>
+                <a href="#armazenagem"><li>Armazenagem</li></a>
+                <a href="#descarte"><li>Descarte</li></a>
+                <a href="#validade"><li>Validade</li></a>
+            </ul>
+        </div>
+        
+    </header>
+    
+    <section id="armazenagem">
+        <div>
+            <h1>Como armazenar medicamentos em casa?</h1>
+            <div class="content">
+                <div class="text"">
+                    <p>Para armazenar de maneira correta os medicamentos na sua casa você deve escolher um lugar da sua casa arejado e sem luz direta sobre o medicamento, que tenha circulação de ar esem interferência  de temperatura.</p>
+                    <p>Evite locais quentes como banheiro e cozinha, e não coloque medicamentos na geladeira, pode mudar seus componentes e eficácia.</p>
+                    <p>Mantenha sempre o ambiente em que você guarda seus remédios limpo e organizado, e não reaproveite frascos de outros medicamentos. Não coloque remédios junto a produtos de limpeza ou perfumes.</p>
+                    <p>Evite automedicação, use fármacos apenas com recomendação de um profissional especializado.</p> 
+                </div>
+                <div class="space"></div>
+                <div class="image">
+                    <img src="imgs/remedios.JPG">
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>    
+    
+    <section id="descarte">
+        <div>
+            
+            <h1>Como descartar medicamentos corretamente?</h1>
+            <div class="content"> 
+                <div class="image">
+                    <img src="imgs/carrinhos.JPG"> 
+                </div>
+                <div class="space"></div>
+                <div class="text">
+                    <p>O descarte do medicamento é muito mais importante do que imaginamos, quando jogamos remédios no vaso sanitário por exemplo estamos contaminando as águas , e os solos. O descarte no lixo comum pode ocasionar contaminação da água que bebemos isso por que as substâncias químicas que existem dentro dos remédios quando em contato com o esgoto ficam tóxicas e poluem a água.</p>
+                    <p>Maneira correta do descarte de medicamentos é levando as embalagens e os remédios vencidos em Unidades básicas de Saúde (UBS) ou em farmácias comuns de seu bairro. Verifique se a UBS da sua cidade é um ponto de coleta de medicamentos antes de leva-los.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="validade">
+        <div>
+            <h1>Quando verificar a validade de um medicamento?</h1>
+            <div class="content">
+                <div class="text">
+                    <p>Não tem uma data específica pra isso, verifique regularmente para mantér a organização de seus medicamentos e sempre antes de consumir. Nunca utilize medicamentos vencidos, é prejudicial a saúde.</p>
+                </div>
+                <div class="space"></div>
+                <div class="image" >
+                    <img src="imgs/interrogacao.JPG">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script defer>
+
+       
+    </script>
+</body>
+
+
+</html>
