@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Informativo Medicamentos</title>
 </head>
 
 <style>
+
+
+
 
     html {
         scroll-behavior: smooth;
@@ -23,7 +26,7 @@
         position: sticky;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 80px;
         background-color: rgb(255, 255, 255);
         
@@ -63,6 +66,7 @@
         width: 75%;
 
         display: flex;
+
         justify-content: center;
         align-items: center;
         height: 100vh;
@@ -76,6 +80,7 @@
     section div.content {
         padding-top: 16px;
         font-size: x-large;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -99,6 +104,47 @@
         width: 75%;
         height: 2px;
         border-radius: 25px;
+    }
+
+
+    @media (max-width: 600px) {
+
+
+        header {
+            height: 80px;
+        }
+
+        header div ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        img:nth-child(odd) {
+            margin-top: 8px;
+        }
+
+        img {
+            margin-bottom: 8px;
+        }
+            
+        
+
+        section h1 {
+            font-size: medium;
+        }
+
+
+        section div.content {
+            flex-direction: column;
+            font-size: medium;
+        }
     }
 
 </style>
